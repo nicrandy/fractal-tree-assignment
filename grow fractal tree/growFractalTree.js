@@ -33,7 +33,7 @@ function mousePressed() {
     tree[i].finished = true;
   }
   treeGeneration++;
-  if(treeGeneration === 5 || treeGeneration === 10 || treeGeneration === 20) {
+  if(treeGeneration === 8) {
     for (var i = 0; i < tree.length; i++) {
       if(!tree[i].finished) {
         var leaf = tree[i].end.copy();
